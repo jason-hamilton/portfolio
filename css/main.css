@@ -1,1 +1,84 @@
-fgt
+@font-face {
+    font-family: 'lobster';
+    src: url('fonts/lobster_1.3-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archivonarrow';
+    src: url('fonts/archivonarrow-bold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+	font-family: 'lobster', sans-serif;
+}
+
+footer {
+	font-family: 'lobster', sans-serif;
+}
+
+h1 {
+	font-family: 'lobster', sans-serif;
+}
+
+p {
+	font-family: 'archivonarrow', sans-serif;
+	font-size: 16px;
+
+}
+
+h4 {
+	font-family: 'lobster', sans-serif
+}
+
+.about-content {
+	padding-top: 35px
+
+}
+
+.button {
+	border-style: solid;
+	display: inline-block;
+	padding: 10px 25px;
+	border-radius: 5px;
+    color: white;
+    background-color: #4D9DE0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button:hover {
+	background-color: #A10702;
+	color: #fff;
+	border-color: #000;
+	text-decoration: none;
+}
+
+.head-content {
+	text-align: center;
+	height: 50px;
+	background-color: #004E89;
+	color: white;
+	font-size: 35px;
+}
+
+.foot-content {
+	text-align: center;
+	height: 25px;
+	background-color: #004E89;
+	color: white;
+	font-size: 15px;
+}
+
+img {
+	border-radius: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+body{
+	background-color: #4D9DE0
+}
